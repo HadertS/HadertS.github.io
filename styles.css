@@ -2,7 +2,11 @@
 	box-sizing: border-box;
 }
 
-ul,ol,li::-moz- {
+html {
+	font-size:62.5%;
+}
+
+header ul,ol {
 	/*	Reset Firefox default padding*/
 	  margin: 0px;
 	  padding: 0px;
@@ -16,6 +20,26 @@ body {
   background-size: cover;
 }
 
-header {
+nav,footer {
+	background-color: #808080B0;
+	border-radius: 1.5rem;
+	padding: 0.4%;
 	
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+}
+
+nav ul {
+	
+	display: flex;
+	justify-content: space-between;
+}
+
+nav li {
+	list-style: none;
+}
+
+nav li:nthChild(3){
+	padding:10rem;
 }
