@@ -7,3 +7,15 @@ ul,ol,li::-moz- {
 	  margin: 0px;
 	  padding: 0px;
 }
+
+body { 
+  background: url(img/pexels-visually-us-1643402-1920-1280.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+header {
+	
+}
