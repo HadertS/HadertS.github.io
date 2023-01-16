@@ -6,12 +6,6 @@ html {
 	font-size:62.5%;
 }
 
-header ul,ol {
-	/*	Reset Firefox default padding*/
-	  margin: 0px;
-	  padding: 0px;
-}
-
 body { 
   background: url(img/pexels-visually-us-1643402-1920-1280.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
@@ -21,16 +15,24 @@ body {
 }
 
 nav,footer {
-	background-color: #808080B0;
-	border-radius: 1.5rem;
-	padding: 0.4%;
+	background-color: #FFFFFF50;
+	border-radius: 1.4rem;
+	padding: 0.3rem;
 	
 	display: flex;
 	justify-content: space-between;
 	align-content: center;
+	font-size:1.5em;
+}
+
+nav h1 {
+	margin: auto;
+	margin-left: 3rem;
 }
 
 nav ul {
+ 	margin: 0 3rem 0 0;
+  	padding: 0;
 	
 	display: flex;
 	justify-content: space-between;
@@ -38,8 +40,5 @@ nav ul {
 
 nav li {
 	list-style: none;
-}
-
-nav li:nthChild(3){
-	padding:10rem;
+	margin: 1rem;
 }
