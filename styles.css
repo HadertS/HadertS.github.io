@@ -1,0 +1,98 @@
+* {
+	box-sizing: border-box;
+}
+
+html {
+	font-size:62.5%;
+}
+
+body { 
+  background: url(img/pexels-visually-us-1643402-1920-1280.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+
+nav,footer {
+	background-color: #FFFFFFA0;
+	border-radius: 1.4rem;
+	padding: 0.3rem;
+	min-width: 32rem;
+	min-height: 5.5rem;
+	
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+	font-size:1.5em;
+}
+
+nav h1,p {
+	margin: auto;
+	margin-left: 3rem;
+}
+
+.menu {
+ 	margin: 0 3rem 0 0;
+  	padding: 0;
+	
+	display: flex;
+	justify-content: space-between;
+}
+
+.menu li {
+	list-style: none;
+	margin: 1rem;
+}
+
+.hamburger-menu div{
+	width: 3.5rem;
+	height: 0.5rem;
+	background-color: black;
+	margin: 0.6rem 3rem 0.6rem 0;
+	display: none;
+}
+
+.hamburger-menu div:nth-of-type(1){
+	margin-top: 1.2rem;
+}
+
+header {
+    font-style: normal;
+    font-weight: bold;
+    color: #EEEEEE;
+    font-size: 8vmin;
+
+    text-shadow: 0.1rem 0.2rem 0.4rem #000000B0;
+    margin-bottom: 4rem;
+	text-align: center;
+	color: white;
+	min-width: 22rem;
+}
+
+header button {
+	  background: #098191;
+	  border-radius: 0.5rem;
+	  display: inline-block;
+	  border: none;
+	  padding: 0.75rem 1.5rem;
+	  margin: 0;
+	  text-decoration: none;
+	  color: #ffffff;
+	  font-size: 1.2rem;
+	  cursor: pointer;
+	  text-align: center;
+}
+
+@media screen and (max-width: 800px){
+  .hamburger-menu div{
+	  display: block;
+  }
+  .menu {
+  	display: none;
+  }
+}
