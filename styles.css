@@ -27,7 +27,7 @@ nav,footer {
 	font-size:1.5em;
 }
 
-nav h1 {
+nav h1,p {
 	margin: auto;
 	margin-left: 3rem;
 }
