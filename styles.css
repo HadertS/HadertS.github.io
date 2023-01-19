@@ -135,14 +135,21 @@ section {
 
 #portfolio div {
 	display: flex;
-	justify-content: space-evenly;
-	
+	justify-content: space-around;
+	padding: 2rem;
+}
+
+#portfolio div:nth-of-type(2){
+	padding-top: 0;
 }
 
 #portfolio article{
 	background-color: #FFFFFFA0;
 	border-radius: 1.4rem;
-	margin: 2rem;
+}
+
+#portfolio article:nth-of-type(2){
+	margin: 0 2rem;
 }
 
 #portfolio img {
@@ -179,9 +186,5 @@ section {
 	#portfolio div {
 		display: block;
 	}
-	
-	#portfolio img {
-		width-max:30rem;
-	}
-	
+	∂ßß
 }
