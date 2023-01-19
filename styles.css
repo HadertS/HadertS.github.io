@@ -16,8 +16,6 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
-
-
 nav,footer {
 	background-color: #FFFFFFA0;
 	border-radius: 1.4rem;
@@ -161,6 +159,25 @@ section {
 	margin: 0 0 1rem 0;
 }
 
+#contact {
+	display:block;
+	text-align: center;
+	
+}
+
+#contact div{
+	display: flex;
+	justify-content: center;
+	
+}
+
+#contact img{
+	object-fit: cover;
+	
+	height: 15rem;
+	width: 15rem;
+}
+
 @media screen and (max-width: 845px){
 	
     .hamburger-menu div{
@@ -185,20 +202,26 @@ section {
 	
 	#portfolio div {
 		display: block;
+		margin: 0;
+		padding: 0;
 	}
-	
+
+	#portfolio div:nth-of-type(2) article:nth-of-type(1){
+		margin: 0 2rem 2rem 2rem;
+	}
+		
 	#portfolio article{
 		margin: 2rem;
 		padding: 0;
 	}
 	
-	#portfolio div:nth-of-type(2) article:nth-of-type(1){
-		margin: 0 2rem 2rem 2rem;
+	#contact div{
+		display: block;
 	}
 	
-	#portfolio div{
-		margin: 0;
-		padding: 0;
+	#contact img {
+		height: 20rem;
+		width: 20rem;
 	}
 	
 }
