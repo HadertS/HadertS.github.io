@@ -16,8 +16,6 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
-
-
 nav,footer {
 	background-color: #FFFFFFA0;
 	border-radius: 1.4rem;
@@ -29,11 +27,6 @@ nav,footer {
 	justify-content: space-between;
 	align-content: center;
 	font-size:1.5em;
-}
-
-nav h1,nav p {
-	margin: auto;
-	margin-left: 3rem;
 }
 
 .menu {
@@ -49,22 +42,9 @@ nav h1,nav p {
 	margin: 1rem;
 }
 
-.hamburger-menu div{
-	width: 3.5rem;
-	height: 0.5rem;
-	background-color: black;
-	margin: 0.6rem 3rem 0.6rem 0;
-	display: none;
-}
-
-.hamburger-menu div:nth-of-type(1){
-	margin-top: 1.2rem;
-}
-
 header {
     font-style: normal;
     font-weight: bold;
-    color: #EEEEEE;
     font-size: 8vmin;
 
     text-shadow: 0.1rem 0.2rem 0.4rem #000000B0;
@@ -74,7 +54,7 @@ header {
 	min-width: 32rem;
 }
 
-header button {
+.button {
 	  background: #098191;
 	  border-radius: 0.5rem;
 	  display: inline-block;
@@ -162,11 +142,7 @@ section {
 }
 
 @media screen and (max-width: 845px){
-	
-    .hamburger-menu div{
-  	  display: block;
-    }
-	
+
     .menu {
     	display: none;
     }
