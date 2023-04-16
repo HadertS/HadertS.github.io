@@ -1,0 +1,59 @@
+@import "node_modules/bootstrap/scss/bootstrap";
+
+html {
+	font-size:62.5%;
+}
+
+body {
+	background: url(img/pexels-visually-us-1643402-1920-1280.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	font-family: 'Open Sans', sans-serif;
+}
+
+nav {
+	background-color: #FFFFFFA0;
+	border-radius: 1.4rem;
+	font-size:1.5em;
+}
+
+.menu li {
+		margin: 1rem;
+}
+
+header {
+    text-shadow: 0.2rem 0.3rem 0.5rem #000000B0;
+	text-align: center;
+	color: white;
+}
+
+section {
+	background-color: #FFFFFFA0;
+	border-radius: 1.4rem;
+	font-size: 1.5em;
+	.card {
+		border-radius: 1.4rem;
+		img {
+			border-radius: 1.4rem;
+		}
+	}
+
+}
+#about article {
+		background-color: #FFFFFFA0;
+		border-radius: 1.4rem;
+		padding: 4rem;
+}
+
+#contact {
+	text-align: center;
+
+	img {
+		object-fit: cover;
+		height: 15rem;
+		width: 15rem;
+	}
+
+}
