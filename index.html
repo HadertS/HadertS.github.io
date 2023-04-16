@@ -5,84 +5,118 @@
 		<meta http-equiv='x-ua-compatible' content='ie=edge'>
 		<meta name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no'>
 		<link rel='stylesheet' type='text/css' href='styles.css'>
-		<title>Sammi Hadert</title>
+		<title>Sammi Hadert's Portfolio</title>
+		<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 	</head>
-	<body>
-		<nav>
-			<ul class='menu'>
-				<li><a href='#about'>About Me</a></li>
-				<li><a href='#portfolio'>Portfolio</a></li>
-				<li><a href='#contact'>Contact Me</a></li>
+	<body class="bg-image">
+		<nav class="navbar navbar-expand w-100">
+			<ul class='navbar-nav menu'>
+				<li class='nav-item'><a class='nav-link' href='#about'>About Me</a></li>
+				<li class='nav-item'><a class='nav-link' href='#portfolio'>Portfolio</a></li>
+				<li class='nav-item'><a class='nav-link' href='#contact'>Contact Me</a></li>
 			</ul>
 		</nav>
-		<header>
-			<h1>Sammi Hadert</h1>
-			<a class="button" href="mailto:">Email Me</a>
-		</header>
-		<main>
-			<section id='about'>
-				<figure>
-					<img alt='Sammi Hadert and Mouse the cat' src='img/author-90.jpg'>
-					<figcaption>Sammi the human and Mouse the cat</figcaption>
+		<div class="container col-xxl-8 px-4 my-5 g-5">
+			<header class="row flex-lg-row-reverse align-items-center g-5 py-5 justify-content-center" id="about">
+				<figure class="col-10 col-sm-8 col-lg-4">
+					<img class="rounded-circle shadow-4-strong  mx-lg-auto img-fluid figure-img" alt='Photograph of the author' src='img/author-90.jpg'>
 				</figure>
-				<article>
-					<h1>Hi, I’m Sammi!</h1>
-					<p>I’m a full-stack developer currently studying at IO Academy. I previously studied Game Development at Buckinghamshire New University. I love tinkering with code and hardware.</p>
+				<article class="col-8 col-lg-6">
+					<h1 class="display-5 fw-bold">Hi, I’m Sammi!</h1>
+					<p class="lead">I’m a full-stack developer currently studying at IO Academy.</p>
+					<p class="lead">I previously studied Game Development at Buckinghamshire New University.</p>
+					<p class="lead">I love tinkering with code and hardware. Please see below for examples of my work.</p>
+					<a class="btn btn-primary btn-lg px-4 gap-3" href="mailto:contact@sammihadert.com">Contact Me</a>
 				</article>
-			</section>
-			<section id='portfolio'>
-				<h1>Portfolio</h1>
-				<div>
-					<article>
-						<img alt='Placeholder Project' src='https://via.placeholder.com/300'>
-						<h2>County Guessing Game</h2>
-						<p>A guessing game and our first cohort project.</p>
-						<p> I acted as scrum master for this.</p>
-						<a class='button' href='https://23jan-county-guess.dev.io-academy.uk/'>Live</a>
-						<a class='button' href='https://github.com/iO-Academy/23-jan-countyGuess'>Code</a>
-					</article>
-					<article>
-						<img alt='Placeholder Project' src='https://via.placeholder.com/300'>
-						<h2>Example project</h2>
-						<p>Oh my this is definitely a good project.</p>
-						<a class='button' href="">Live</a>
-						<a class='button' href="">Code</a>
-					</article>
-					<article>
-						<img alt='Placeholder Project' src='https://via.placeholder.com/300'>
-						<h2>Example project</h2>
-						<p>Oh my this is definitely a good project.</p>
-						<a class='button' href="">Live</a>
-						<a class='button' href="">Code</a>
-					</article>
+			</header>
+		</div>
+		<main>
+			<section id='portfolio' class="col-lg-10  mb-5 py-5 shadow-sm container">
+				<div class="row">
+					<div class="col-lg-4 mb-3 d-flex align-items-stretch">
+						<div class="card">
+							<img src="img/project_screenshots/county_guessing_game.png" class="card-img-top" alt="Screenshot of County Guessing Game">
+							<div class="card-body d-flex flex-column">
+								<h5 class="card-title">County Guessing Game</h5>
+								<p class="card-text mb-4">As the Scrum Master for our inaugural ioAcademy team project, I led the development of this JavaScript guessing game. This engaging project not only showcased our team's technical prowess but also highlighted our ability to work cohesively towards a common goal.</p>
+								<div class="d-flex justify-content-evenly">
+									<a class='btn btn-primary btn-lg w-25 ' href="https://23jan-county-guess.dev.io-academy.uk/">Live</a>
+									<a class='btn btn-primary btn-lg w-25' href="https://github.com/iO-Academy/23-jan-countyGuess">Code</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 mb-3 d-flex align-items-stretch">
+						<div class="card">
+							<img src="https://i.postimg.cc/4xVY64PV/porto-timoni-double-beach-corfu-greece-700.jpg" class="card-img-top" alt="Card Image">
+							<div class="card-body d-flex flex-column">
+								<h5 class="card-title"></h5>
+								<p class="card-text mb-4"></p>
+								<div class="d-flex justify-content-evenly">
+									<a class='btn btn-primary btn-lg w-25 ' href="">Live</a>
+									<a class='btn btn-primary btn-lg w-25' href="">Code</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 mb-3 d-flex align-items-stretch">
+						<div class="card">
+							<img src="https://i.postimg.cc/TYyLPJWk/tritons-fountain-valletta-malta-700.jpg" class="card-img-top" alt="Card Image">
+							<div class="card-body d-flex flex-column">
+								<h5 class="card-title"></h5>
+								<p class="card-text mb-4"></p>
+								<div class="d-flex justify-content-evenly">
+									<a class='btn btn-primary btn-lg w-25 ' href="">Live</a>
+									<a class='btn btn-primary btn-lg w-25' href="">Code</a>
+								</div>
+							</div>
+						</div>
+					</div>
 				</div>
-				<div>
-					<article>
-						<img alt='Placeholder Project' src='https://via.placeholder.com/300'>
-						<h2>Example project</h2>
-						<p>Oh my this is definitely a good project.</p>
-						<a class='button' href="">Live</a>
-						<a class='button' href="">Code</a>
-					</article>
-					<article>
-						<img alt='Placeholder Project' src='https://via.placeholder.com/300'>
-						<h2>Example project</h2>
-						<p>Oh my this is definitely a good project.</p>
-						<a class='button' href="">Live</a>
-						<a class='button' href="">Code</a>
-					</article>
-					<article>
-						<img alt='Placeholder Project' src='https://via.placeholder.com/300'>
-						<h2>Example project</h2>
-						<p>Oh my this is definitely a good project.</p>
-						<a class='button' href="">Live</a>
-						<a class='button' href="">Code</a>
-					</article>
+				<div class="row">
+					<div class="col-lg-4 mb-3 d-flex align-items-stretch">
+						<div class="card">
+							<img src="https://i.postimg.cc/28PqLLQC/dotonburi-canal-osaka-japan-700.jpg" class="card-img-top" alt="Card Image">
+							<div class="card-body d-flex flex-column">
+								<h5 class="card-title"></h5>
+								<p class="card-text mb-4"></p>
+								<div class="d-flex justify-content-evenly">
+									<a class='btn btn-primary btn-lg w-25 ' href="">Live</a>
+									<a class='btn btn-primary btn-lg w-25' href="">Code</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 mb-3 d-flex align-items-stretch">
+						<div class="card">
+							<img src="https://i.postimg.cc/4xVY64PV/porto-timoni-double-beach-corfu-greece-700.jpg" class="card-img-top" alt="Card Image">
+							<div class="card-body d-flex flex-column">
+								<h5 class="card-title"></h5>
+								<p class="card-text mb-4"></p>
+								<div class="d-flex justify-content-evenly">
+									<a class='btn btn-primary btn-lg w-25 ' href="">Live</a>
+									<a class='btn btn-primary btn-lg w-25' href="">Code</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 mb-3 d-flex align-items-stretch">
+						<div class="card">
+							<img src="https://i.postimg.cc/TYyLPJWk/tritons-fountain-valletta-malta-700.jpg" class="card-img-top" alt="Card Image">
+							<div class="card-body d-flex flex-column">
+								<h5 class="card-title"></h5>
+								<p class="card-text mb-4"></p>
+								<div class="d-flex justify-content-evenly">
+									<a class='btn btn-primary btn-lg w-25 ' href="">Live</a>
+									<a class='btn btn-primary btn-lg w-25' href="">Code</a>
+								</div>
+							</div>
+						</div>
+					</div>
 				</div>
 			</section>
-			<section id='contact'>
-				<h2>Contact Me</h2>
-				<div>
+			<section id='contact' class="col-lg-10  mb-5 py-5 container">
+				<div class="d-block d-lg-flex justify-content-evenly">
 					<a href='https://github.com/HadertS' target='_blank' rel='noopener noreferrer'>
 						<figure class='logo'>
 							<img src='img/iconmonstr-github-3.svg' alt='GitHub'>
@@ -95,7 +129,7 @@
 							<figcaption>LinkedIn Profile</figcaption>
 						</figure>
 					</a>
-					<a href='mailto:someone@example.com'>
+					<a href='mailto:contact@sammihadert.com'>
 						<figure class='logo'>
 							<img src='img/iconmonstr-email-10.svg' alt='Email'>
 							<figcaption>Email</figcaption>
@@ -104,8 +138,5 @@
 				</div>
 			</section>
 		</main>
-		<footer>
-			<p>&#169; Sammi Hadert 2023</p>
-		</footer>
 	</body>
 </html>
